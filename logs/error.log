@@ -1,0 +1,290 @@
+Fri Oct 04 2019 13:41:00 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Mon Oct 07 2019 09:15:01 GMT+0700 (Indochina Time)
+ === Error while get list user project. === 
+ {}
+ === End Error while get list user project. ===
+
+Mon Oct 07 2019 09:16:22 GMT+0700 (Indochina Time)
+ === Error while get list user project. === 
+ {}
+ === End Error while get list user project. ===
+
+Mon Oct 07 2019 09:16:34 GMT+0700 (Indochina Time)
+ === Error while get list user project. === 
+ {}
+ === End Error while get list user project. ===
+
+Mon Oct 07 2019 10:57:20 GMT+0700 (Indochina Time)
+ === Error while add user. === 
+ {"name":"SequelizeUniqueConstraintError","errors":[{"message":"UK_users_username must be unique","type":"unique violation","path":"UK_users_username","value":"lutfi","origin":"DB","instance":null,"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}],"fields":{"UK_users_username":"lutfi"},"parent":{"message":"Violation of UNIQUE KEY constraint 'UK_users_username'. Cannot insert duplicate key in object 'dbo.users'. The duplicate key value is (lutfi).","code":"EREQUEST","number":2627,"state":1,"class":14,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"INSERT INTO [dbo].[users] ([username] ,[full_name] ,[gender] ,[email] ,[no_handphone] ,[password] ,[created_by] ,[ip_addr]) VALUES (@0 ,@1 ,@2 ,@3 ,@4 ,CONVERT(VARCHAR(32), HashBytes('MD5', @5 ), 2) ,@6 ,@7)","parameters":{"0":"lutfi","1":"Lutfi Ardiansyah","2":"L","3":"lutfi.ardiansyah@acset.co","4":"08123456789","5":"ywPZkrnL","6":"admin","7":"::1"}},"original":{"message":"Violation of UNIQUE KEY constraint 'UK_users_username'. Cannot insert duplicate key in object 'dbo.users'. The duplicate key value is (lutfi).","code":"EREQUEST","number":2627,"state":1,"class":14,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"INSERT INTO [dbo].[users] ([username] ,[full_name] ,[gender] ,[email] ,[no_handphone] ,[password] ,[created_by] ,[ip_addr]) VALUES (@0 ,@1 ,@2 ,@3 ,@4 ,CONVERT(VARCHAR(32), HashBytes('MD5', @5 ), 2) ,@6 ,@7)","parameters":{"0":"lutfi","1":"Lutfi Ardiansyah","2":"L","3":"lutfi.ardiansyah@acset.co","4":"08123456789","5":"ywPZkrnL","6":"admin","7":"::1"}},"sql":"INSERT INTO [dbo].[users] ([username] ,[full_name] ,[gender] ,[email] ,[no_handphone] ,[password] ,[created_by] ,[ip_addr]) VALUES (@0 ,@1 ,@2 ,@3 ,@4 ,CONVERT(VARCHAR(32), HashBytes('MD5', @5 ), 2) ,@6 ,@7)"}
+ === End Error while add user. ===
+
+Mon Oct 07 2019 10:59:04 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Mon Oct 07 2019 10:59:07 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Mon Oct 07 2019 10:59:18 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Tue Oct 08 2019 10:53:34 GMT+0700 (Indochina Time)
+ === Username not registered. === 
+ []
+ === End Username not registered. ===
+
+Thu Oct 10 2019 09:41:27 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Fri Oct 11 2019 14:15:07 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Fri Oct 11 2019 14:32:19 GMT+0700 (Indochina Time)
+ === Username not registered. === 
+ []
+ === End Username not registered. ===
+
+Thu Oct 17 2019 11:23:55 GMT+0700 (Indochina Time)
+ === Error while updated user. === 
+ {}
+ === End Error while updated user. ===
+
+Tue Oct 22 2019 08:54:53 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":5770054535858400191,\"success\":1,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"},{\"message_id\":\"0:1571709294589584%0f493ae600000032\"}]}"
+ === End Error while send push notification! ===
+
+Tue Oct 22 2019 08:57:46 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":2936158195218713029,\"success\":1,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"},{\"message_id\":\"0:1571709467653123%0f493ae600000032\"}]}"
+ === End Error while send push notification! ===
+
+Tue Oct 22 2019 10:36:10 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":1446190409535375684,\"success\":1,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"},{\"message_id\":\"0:1571715370999626%e609af1c00000032\"}]}"
+ === End Error while send push notification! ===
+
+Tue Oct 22 2019 10:41:35 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":8764093497833988157,\"success\":1,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"},{\"message_id\":\"https:\\/\\/updates.push.services.mozilla.com\\/m\\/gAAAAABdrnpv6w8YIZc5CFq4k64XGBIb5fSlUYUJjSUk12wV9mjk9NqMJpyxrHcJwfjUZr_RQ4sMj-77WeeSmTHv5kRvcL6fioz30H8IirKYzSUG1lbTDmJaIp3Y57GSxQjwuaQf8pYN4ax-g4jU_muSukF4nCBkx9be8fYgZTFIf_IcHy_VOvk=\"}]}"
+ === End Error while send push notification! ===
+
+Thu Oct 31 2019 12:59:27 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 12:59:48 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:00:48 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:00:52 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:01:02 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:01:05 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:01:24 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:01:30 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:14:16 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 13:15:20 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 16:19:30 GMT+0700 (Indochina Time)
+ === Username not registered. === 
+ []
+ === End Username not registered. ===
+
+Thu Oct 31 2019 16:20:30 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Thu Oct 31 2019 16:30:44 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
+Thu Oct 31 2019 16:32:41 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Thu Oct 31 2019 16:56:32 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Thu Oct 31 2019 16:56:50 GMT+0700 (Indochina Time)
+ === Username not registered. === 
+ []
+ === End Username not registered. ===
+
+Thu Oct 31 2019 16:58:31 GMT+0700 (Indochina Time)
+ === Error while activated user. === 
+ {"name":"SequelizeDatabaseError","parent":{"message":"Incorrect syntax near ','.","code":"EREQUEST","number":102,"state":1,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"UPDATE users SET is_active = @0, count_wrong_password = case when is_active = 1 THEN count_wrong_password ELSE 0 END, updated_by = @1, ip_addr, @2, updated_date = getdate() WHERE id = @3","parameters":{"0":1,"1":"admin","2":"::1","3":1}},"original":{"message":"Incorrect syntax near ','.","code":"EREQUEST","number":102,"state":1,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"UPDATE users SET is_active = @0, count_wrong_password = case when is_active = 1 THEN count_wrong_password ELSE 0 END, updated_by = @1, ip_addr, @2, updated_date = getdate() WHERE id = @3","parameters":{"0":1,"1":"admin","2":"::1","3":1}},"sql":"UPDATE users SET is_active = @0, count_wrong_password = case when is_active = 1 THEN count_wrong_password ELSE 0 END, updated_by = @1, ip_addr, @2, updated_date = getdate() WHERE id = @3","parameters":{"0":1,"1":"admin","2":"::1","3":1}}
+ === End Error while activated user. ===
+
+Mon Nov 04 2019 08:49:03 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Mon Nov 04 2019 08:49:07 GMT+0700 (Indochina Time)
+ === Username not registered. === 
+ []
+ === End Username not registered. ===
+
+Mon Nov 04 2019 08:49:34 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Mon Nov 04 2019 09:23:32 GMT+0700 (Indochina Time)
+ === Your password is incorrect. === 
+ []
+ === End Your password is incorrect. ===
+
+Thu Nov 07 2019 09:14:38 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Thu Nov 07 2019 09:15:33 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 13:59:42 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":9149005645379928273,\"success\":0,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"}]}"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:06:16 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":7976000467669853098,\"success\":0,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"}]}"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:14:45 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:19:47 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":8848989620887260066,\"success\":0,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"}]}"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:26:51 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:27:08 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":912221376814930074,\"success\":0,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"}]}"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:31:06 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:31:14 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":5213810676918100518,\"success\":0,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"}]}"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 14:50:54 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 15:40:35 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 15:40:56 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "{\"multicast_id\":3673524504915738674,\"success\":0,\"failure\":1,\"canonical_ids\":0,\"results\":[{\"error\":\"MissingRegistration\"}]}"
+ === End Error while send push notification! ===
+
+Fri Nov 08 2019 15:45:39 GMT+0700 (Indochina Time)
+ === Error while send push notification! === 
+ "InvalidServerResponse"
+ === End Error while send push notification! ===
+
+Mon Nov 11 2019 11:07:27 GMT+0700 (Indochina Time)
+ === Error while logout users from app. === 
+ {}
+ === End Error while logout users from app. ===
+
+Mon Nov 11 2019 11:10:12 GMT+0700 (Indochina Time)
+ === Error while logout users from app. === 
+ {}
+ === End Error while logout users from app. ===
+
+Mon Nov 11 2019 11:17:06 GMT+0700 (Indochina Time)
+ === Error while logout users from app. === 
+ {}
+ === End Error while logout users from app. ===
+
+Mon Nov 11 2019 11:17:52 GMT+0700 (Indochina Time)
+ === Error while logout users from app. === 
+ {}
+ === End Error while logout users from app. ===
+
+Mon Nov 11 2019 11:18:44 GMT+0700 (Indochina Time)
+ === Error while logout users from app. === 
+ {}
+ === End Error while logout users from app. ===
+
+Mon Nov 11 2019 11:22:23 GMT+0700 (Indochina Time)
+ === Your account is still logged in on another device. === 
+ []
+ === End Your account is still logged in on another device. ===
+
